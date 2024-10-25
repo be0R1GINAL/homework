@@ -1,0 +1,31 @@
+body {
+    font-style: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block,
+.inline {
+    background-color: rgb(215, 211, 231);
+}
+
+.block {
+    padding: 30px;
+    margin: 50px;
+}
+
+/* ============================== */
+
+
+.block {
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+}
+
+
+.inline {}
+
+.img {}

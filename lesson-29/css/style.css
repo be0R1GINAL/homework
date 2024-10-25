@@ -1,0 +1,23 @@
+body {
+    font-style: 40px;
+}
+
+/* ====================================== */
+
+
+.block {
+    /* width: 200px;
+    height: 150px; */
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.inline {
+    width: 200px;
+    height: 200px;
+}
+
+.img {
+width: 250px;
+height: 350px;
+}

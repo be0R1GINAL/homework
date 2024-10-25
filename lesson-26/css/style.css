@@ -1,0 +1,12 @@
+[data-exzample="block1"] {
+    color: red
+}
+
+
+.block1, .block2, .block3 {
+    color: green;
+}
+
+.parent>.child {
+    color: blueviolet;
+}

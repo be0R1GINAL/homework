@@ -1,0 +1,36 @@
+.text1 {
+    font-family: "Open Sans" serif;
+    font-size: 20px;
+    font-weight: 300px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.text2 {
+    font-family: "Atial" serif;
+    font-style: normal;
+    text-decoration: line-through;
+}
+
+.text3 {
+    font-family: "Arial" serif;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text4 {
+    font-family: "Arial" serif;
+    font-style: normal;
+    word-spacing: 10px;
+    text-decoration: wavy overline rgb(130, 12, 146);
+    color: rgb(99, 29, 165);
+
+}
+
+.text5 {
+    font-family: "Arial" serif;
+    font-style: normal;
+    letter-spacing: 5px;
+    text-decoration: double underline black;
+}

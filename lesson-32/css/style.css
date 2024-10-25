@@ -1,0 +1,29 @@
+body {
+    font-style: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block,
+.inline {
+    background-color: rgb(183, 208, 230);
+}
+
+/* ============================== */
+
+
+.block {
+    border: 7px solid #9e2c2c;
+}
+
+.inline {
+
+}
+
+.img {
+    border: 7px solid #9e2c2c;
+    border-radius: 50%;
+}
+
