@@ -1,0 +1,261 @@
+body {
+    background-color: #181e34;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 150%;
+    color: #ffffff;
+
+}
+
+.container {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+
+/* =========================================== */
+
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 36px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-nav {
+    margin-left: auto;
+}
+
+.header-list {
+    display: flex;
+
+}
+
+.header-item {
+    margin-right: 30px;
+}
+
+.header-button {
+    border-radius: 100px;
+    background: #ffffff;
+    color: #2766ae;
+    padding: 14px 30px;
+    font-weight: 500;
+}
+
+/* ===================================== */
+
+
+.hero {
+    background: url("../img/hero-b.jpeg") 10% 50% / cover no-repeat;
+    height: 508px;
+}
+
+.hero-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.hero-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-button-one {
+    display: flex;
+    width: 320px;
+    height: 56px;
+    padding: 18px 30px 18px 30px;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    background: linear-gradient(180.00deg, rgb(0, 164, 204), rgb(39, 102, 174) 100%);
+}
+
+.hero-button-two {
+    display: flex;
+    width: 320px;
+    height: 56px;
+    padding: 18px 30px 18px 30px;
+    justify-content: center;
+    border-radius: 100px;
+    background: linear-gradient(129.14deg, rgb(0, 164, 204) 5.913%, rgb(39, 102, 174) 91.534%);
+}
+
+.hero-p-1,
+.hero-p-2 {
+    width: 436px;
+    height: 72px;
+    margin-bottom: 15px;
+}
+
+span {
+    color: #01a2cb;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+/* ======================================= */
+
+
+.info-box {
+    height: 808px;
+}
+
+
+.info-container-title {
+    margin: 120px auto 60px;
+    width: 513px;
+    height: 112px;
+}
+
+.info-p-1 {
+    margin: 15px 0;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.frame-one {
+    display: flex;
+}
+
+.frame-two {
+    display: flex;
+}
+
+.frame_box {
+
+    width: 204px;
+    height: 141px;
+    box-sizing: border-box;
+    border: 2px solid rgb(23, 107, 174);
+    border-radius: 16px;
+    padding: 28px;
+    margin: 28px 28px 0px 0;
+
+    box-shadow: 4px 4px 13px 0px rgba(5, 13, 41, 0.76);
+    background: rgb(25, 124, 184);
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.frame_box>p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.info-button {
+    display: flex;
+    border-radius: 100px;
+    background: linear-gradient(180.00deg, rgb(0, 164, 204), rgb(39, 102, 174) 100%);
+    width: 436px;
+    height: 56px;
+    padding: 18px 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 120px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+/* ============================================== */
+
+.line {
+    box-sizing: border-box;
+border-top: 1px solid rgb(50, 57, 82);
+background: rgb(24, 30, 52);
+}
+
+.footer {
+    height: 361px;
+}
+
+.footer-logo-img {
+    margin: 15px 0px;
+}
+
+.footer-logo {
+    width: 267px;
+    height: 159px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer-box {
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-text {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+.footer-menu-btn {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 15px ;
+}
