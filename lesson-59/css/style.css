@@ -1,0 +1,47 @@
+body {
+    background-color: #1e1e20;
+}
+
+.wrapper {
+    padding: 50px;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    height: 200px;
+    background-color: #444;
+}
+
+.block {
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+/* ========================================================= */
+
+.block {
+    animation: move-block 2s 2s infinite alternate;
+}
+
+@keyframes move-block {
+    0% {
+        left: 0px;
+        background-color: rgb(55, 212, 55);
+    }
+
+    37% {
+        top: 200px;
+        border-radius: 100px;
+        box-shadow: 0 0 10px 10px purple;
+        background-color: rgb(228, 104, 104);
+    }
+
+    100% {
+        left: calc(100% - 200px);
+        background-color: rgb(87, 87, 206);
+    }
+}
+
