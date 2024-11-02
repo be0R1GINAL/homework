@@ -1,0 +1,44 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 5rem;
+    padding-top: 5vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+}
+
+/* ====================================================== */
+.title {
+    position: relative;
+}
+
+.title::before {
+    content: '';
+background-color: red;
+width: 100px;
+height: 100px;border-radius: 50px;
+border: 2px white solid;
+position: absolute;
+left: -150px;
+top: -10px;
+}
+
+.title::after {
+    content: '';
+background-color: rgb(45, 15, 153);
+width: 100px;
+height: 100px;border-radius: 50px;
+border: 2px white solid;
+position: absolute;
+left: 425px;
+top: -10px;
+
+}
