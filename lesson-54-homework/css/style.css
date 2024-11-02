@@ -1,0 +1,30 @@
+body {
+    background: #262628;
+}
+
+p {
+    color: #fff;
+}
+
+.object {
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    left: 50%;
+
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.radius {
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: red;
+
+}
